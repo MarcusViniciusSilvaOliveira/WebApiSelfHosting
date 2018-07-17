@@ -26,7 +26,7 @@ namespace WebApi_SelfHosting
             try
             {
                 //Enquanto estiver dentro do Using, manterá a configuração da WebApi "online"
-                using (WebApp.Start<WebApiConfiguration>("http://127.0.0.1:3031"))
+                using (WebApp.Start<WebApiConfiguration>("http://*:3031/"))
                 {
                     Console.WriteLine("Aplicação iniciada com sucesso!!!");
 
