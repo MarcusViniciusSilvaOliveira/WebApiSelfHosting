@@ -15,7 +15,7 @@ namespace WebApi_SelfHosting.Controllers
         public List<Product> GetProducts()
         {
             //Ao acesso o método pela WebApi, irá retornar uma lista de alguma entidade.
-            //No exemplo abaixo esta retornando um resultado estática.
+            //No exemplo abaixo esta retornando um resultado estático.
             return ListaTemporaria();
 
             //Mas a idéia é fazer uma conexão com banco de dados e utilização de entidade/mapeamento.
